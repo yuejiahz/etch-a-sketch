@@ -3,7 +3,7 @@
     display:grid;
     grid-gap:2px;
     height: 485px;
-    width: 100%;
+    width: 485px;
     margin-top: 20px;
     border: solid black;
 }
@@ -17,10 +17,12 @@
 }
 
 #container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
 }
 
 #clear{
@@ -28,6 +30,7 @@
     height: 40px;
     background-color: #58c75c;
     border-radius: 10px;
+    width: 485px;
 }
 
 h1{
@@ -36,6 +39,7 @@ color: coral;
 margin: 0;
 padding: 0;
 }
+
 p{
     font-size: 70%;
 }
